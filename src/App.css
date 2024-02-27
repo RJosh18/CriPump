@@ -1,0 +1,105 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(to bottom, #fff, rgb(216, 216, 101));
+  background-attachment: fixed;
+}
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.heading_img {
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.img1 {
+  margin-top: 0px;
+  height: 100px;
+  width: auto;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  flex-direction: column;
+}
+.heading {
+  margin-left: -300px;
+  font-style: bold;
+  font-weight: 600;
+}
+.list {
+  margin-left: 10px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10px;
+}
+.trophy {
+  margin-top: 20px;
+  left: 0;
+  position: absolute;
+}
+.img2 {
+  height: 650px;
+  width: 350px;
+  margin-left: 0px;
+}
+.ceremony_img {
+  height: auto;
+  width: 800px;
+  margin-left: -20px;
+}
+.textBImg {
+  font-weight: 300;
+  font-size: medium;
+}
+.machines_img {
+  height: auto;
+  width: 900px;
+}
+.textBMac {
+  font-size: medium;
+}
+hr {
+  background-color: rgb(195, 16, 16);
+  height: 3px;
+  border-width: 0;
+}
+#partition {
+  color: red;
+}
+.textBLine {
+  font-weight: 500;
+}
+.socials {
+  color: #fff;
+  background-color: rgb(195, 16, 16);
+  height: 100px;
+  display: flex;
+  gap: 300px;
+}
+.socials i {
+  white-space: nowrap;
+}
+.number {
+  margin-left: 70px;
+}
+
+#logos {
+  margin-top: 30px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+#link a {
+  color: #fff;
+}
